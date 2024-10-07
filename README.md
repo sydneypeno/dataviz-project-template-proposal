@@ -1,30 +1,32 @@
-# Data Visualization Project
+# Data Visualization Project - Massachusetts Car Crashes
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is from a Boston Crash Dataset. This Dataset is pulled from data.boston.gov, provided as part of the Vision Zero Boston program, contains records of the date, time, location, and type of crash for incidents requiring public safety response which may involve injuries or fatalities. All records are compiled by the Department of Innovation and Technology from the City's Computer-Aided Dispatch (911) system and verified as having required a response from a public safety agency. To protect the privacy of individuals involved in these incidents, we do not indicate the severity of specific crashes or whether medical care was provided in any specific case.
+
+I want to understand the geographic distribution of crashes. I want to understand how crashes have changed of time (time of day, time of week, time of year, year-after-year, etc.) I want to identify subsets of the data where crashes have a high value. I want to identify crash rates for location types. I want to identify crash rates for mode/vehicle type.
 
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * How does the amount of crashes vary over geographic location?
+ * Is there any patterns (correlation) between the number of crashes and the time of day? day of week? time of year? from year-to-year?
+ * Do different locations have varying crash rates?
+ * DO different vehicle types have higher crash rates?
 
 ## Sketches
-
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+<img width="639" alt="Screenshot 2024-10-07 at 10 11 06 AM" src="https://github.com/user-attachments/assets/4a15dca8-2e27-4870-933c-707197c25efa">
+This sketch shows the distribution of crashes geographically, with an interactive time filter bar. The data points are different sizes to represent if more than 1 crash has happened in that same spot, and different colors to represent time of day, crash type etc. This will help answer questions about patterns. 
 
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created a proof of concept visualization of this data. It's a bar chart and it shows the number of crashes each month over the past 10 years, from 2015-2025. As you can see, there are similar patterns each year, as seen by the humps going up and down each year. 
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+<img width="815" alt="Screenshot 2024-10-07 at 10 23 44 AM" src="https://github.com/user-attachments/assets/521cd046-531e-450a-bde7-16e438447dac">
+
 
 (please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
 
@@ -33,15 +35,13 @@ You can put images into here by pasting them into issues.
 You can make images into links like this:
 
 ```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc?edit=files)
 ```
 
 
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
-
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+I really like map visualizations especially where boson is a city, and it will be interesting to see if there are certain areas that are congested with crashes compared to further outside the city. However for some of my questions, line graphs/bar graaphs etc. might be easier to identify these patterns. I will likely include multiple graphs as my final visualization project; the cloreoploth, bar chart, and a line graph, for example. 
 
 ## Milestones
 
