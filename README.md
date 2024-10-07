@@ -27,16 +27,7 @@ I’ve created a proof of concept visualization of this data. It's a bar chart a
 
 <img width="815" alt="Screenshot 2024-10-07 at 10 23 44 AM" src="https://github.com/user-attachments/assets/521cd046-531e-450a-bde7-16e438447dac">
 
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can put images into here by pasting them into issues.
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc?edit=files)
-```
+Link to viz hub for this visualization: https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc?edit=files
 
 
 ## Open Questions
