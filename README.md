@@ -36,4 +36,13 @@ I really like map visualizations especially where boson is a city, and it will b
 
 ## Milestones
 
+10/10 - First draft proposal documentation
+10/21 - Add more prototypes
+10/30 - Progress Report & Peer feedback 
+11/06 - Improve Main prototype
+11/13 - Add interactivity 
+11/20 - Add interactivity to supplementary Vizs
+12/04 - Make video on final Viz
+
+
 (for each week, estimate what would be accomplised)
