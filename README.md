@@ -29,6 +29,9 @@ I’ve created a proof of concept visualization of this data. It's a bar chart a
 
 Link to viz hub for this visualization: https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc?edit=files
 
+I have also started creating the map that I plan to plot the crash data on, using geojson data for the state of massachusetts that I found on github. You can see the map outline loaded into the workspace in the screenshot below. 
+
+<img width="1315" alt="Screenshot 2024-10-20 at 9 01 02 PM" src="https://github.com/user-attachments/assets/a54e705d-3294-4cc8-a11f-ddcefead219d">
 
 ## Open Questions
 
@@ -36,8 +39,7 @@ I really like map visualizations especially where boson is a city, and it will b
 
 ## Milestones
 
-10/10 - First draft proposal documentation
-10/21 - Add more prototypes
+10/24 - Add data to graphs
 10/30 - Progress Report & Peer feedback 
 11/06 - Improve Main prototype
 11/13 - Add interactivity 
