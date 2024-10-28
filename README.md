@@ -1,8 +1,9 @@
 # Data Visualization Project - Massachusetts Car Crashes
 
-## Viz Hub 
+## Viz Hub Links
 
-https://vizhub.com/sydneypeno/a45d6b7a43ba4b44aafbb23353237f71
+Version 1: https://vizhub.com/sydneypeno/a45d6b7a43ba4b44aafbb23353237f71
+Version 2: https://vizhub.com/sydneypeno/7ae09253c93341ae8cc9954694307b84
 
 ## Data
 
