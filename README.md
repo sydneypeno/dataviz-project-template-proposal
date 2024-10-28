@@ -2,9 +2,13 @@
 
 ## Viz Hub Links
 
-Version 1: https://vizhub.com/sydneypeno/a45d6b7a43ba4b44aafbb23353237f71
+Map Version 1: https://vizhub.com/sydneypeno/a45d6b7a43ba4b44aafbb23353237f71
 
-Version 2: https://vizhub.com/sydneypeno/7ae09253c93341ae8cc9954694307b84
+Map Version 2: https://vizhub.com/sydneypeno/7ae09253c93341ae8cc9954694307b84
+
+Graph Version 1: https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc
+
+Graph Version 2: https://vizhub.com/sydneypeno/63a64b63d6fc438aaafdcc307829fb33
 
 ## Data
 
