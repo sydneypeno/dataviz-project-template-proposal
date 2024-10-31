@@ -37,15 +37,8 @@ This sketch shows the distribution of crashes geographically, with an interactiv
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a bar chart and it shows the number of crashes each month over the past 10 years, from 2015-2025. As you can see, there are similar patterns each year, as seen by the humps going up and down each year. 
+You can observe each iteration of my visualization by checking out the links to each version above. From the a proof of concept visualization of this data, to the fourth iterations, you can see how my project has evolved. The map visualization started out as a basic map of massachusetts and sample dataa points, and has since evolved to a map of boston and every crash that has been reported in the past 8 years. The graph visualization started as a bar chart showing the number of crashes each month over the past 10 years, from 2015-2025. Since then I have changed the graph to a line graph to better represent the continuous nature of the data. As you can see, there are similar patterns each year, as seen by the humps going up and down each year. 
 
-<img width="815" alt="Screenshot 2024-10-07 at 10 23 44 AM" src="https://github.com/user-attachments/assets/521cd046-531e-450a-bde7-16e438447dac">
-
-Link to viz hub for this visualization: https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc?edit=files
-
-I have also started creating the map that I plan to plot the crash data on, using geojson data for the state of massachusetts that I found on github. You can see the map outline loaded into the workspace in the screenshot below. 
-
-<img width="1315" alt="Screenshot 2024-10-20 at 9 01 02 PM" src="https://github.com/user-attachments/assets/a54e705d-3294-4cc8-a11f-ddcefead219d">
 
 ## Open Questions
 
@@ -53,8 +46,6 @@ I really like map visualizations especially where boson is a city, and it will b
 
 ## Milestones
 
-10/24 - Add data to graphs
-10/30 - Progress Report & Peer feedback 
 11/06 - Improve Main prototype
 11/13 - Add interactivity 
 11/20 - Add interactivity to supplementary Vizs
