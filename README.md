@@ -47,7 +47,10 @@ You can observe each iteration of my visualization by checking out the links to 
 
 The graph visualization started as a bar chart showing the number of crashes each month over the past 10 years, from 2015-2025. Since then I have changed the graph to a line graph to better represent the continuous nature of the data. As you can see, there are similar patterns each year, as seen by the humps going up and down each year. 
 
-<img width="874" alt="Screenshot 2024-11-08 at 10 00 11 AM" src="https://github.com/user-attachments/assets/f1cf0803-83a1-4596-8901-d93ea93095cb">
+<img width="553" alt="Screenshot 2024-11-14 at 3 12 51 PM" src="https://github.com/user-attachments/assets/c41f2be9-39d1-4b08-b77c-bb65384ec8b4">
+<img width="556" alt="Screenshot 2024-11-14 at 3 11 59 PM" src="https://github.com/user-attachments/assets/d01ee256-756c-4289-aefd-12ecbca9e99f">
+<img width="549" alt="Screenshot 2024-11-14 at 3 11 45 PM" src="https://github.com/user-attachments/assets/af316804-7175-48f6-92d5-d891e2b87c15">
+
 
 <img width="815" alt="Screenshot 2024-11-08 at 10 00 55 AM" src="https://github.com/user-attachments/assets/7ca3a9ba-19ee-44da-a071-dc07eec9e4ec">
 
