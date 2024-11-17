@@ -49,7 +49,8 @@ The graph visualization started as a bar chart showing the number of crashes eac
 <img width="549" alt="Screenshot 2024-11-14 at 3 11 45 PM" src="https://github.com/user-attachments/assets/af316804-7175-48f6-92d5-d891e2b87c15">
 
 
-<img width="815" alt="Screenshot 2024-11-08 at 10 00 55 AM" src="https://github.com/user-attachments/assets/7ca3a9ba-19ee-44da-a071-dc07eec9e4ec">
+<img width="714" alt="Screenshot 2024-11-17 at 5 41 39 PM" src="https://github.com/user-attachments/assets/e24d43df-3281-407b-8e9e-1eb2d8e4fdb2">
+
 
 
 ## Open Questions
