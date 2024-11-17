@@ -18,7 +18,9 @@ Map Version 6: https://vizhub.com/sydneypeno/28e15db445594a1eb679a83c2e6539e9
 
 Graph Version 1: https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc
 
-**Graph Version 2: https://vizhub.com/sydneypeno/63a64b63d6fc438aaafdcc307829fb33**
+Graph Version 2: https://vizhub.com/sydneypeno/63a64b63d6fc438aaafdcc307829fb33
+
+**Graph Version 3: https://vizhub.com/sydneypeno/6e535fdd7bd44f0fa56ae8295d4169af**
 
 ## Data
 
@@ -36,16 +38,11 @@ The following tasks and questions will drive the visualization and interaction d
  * Do different locations have varying crash rates?
  * DO different vehicle types have higher crash rates?
 
-## Sketches
-<img width="639" alt="Screenshot 2024-10-07 at 10 11 06 AM" src="https://github.com/user-attachments/assets/4a15dca8-2e27-4870-933c-707197c25efa">
-This sketch shows the distribution of crashes geographically, with an interactive time filter bar. The data points are different sizes to represent if more than 1 crash has happened in that same spot, and different colors to represent time of day, crash type etc. This will help answer questions about patterns. 
-
-
 ## Prototypes
 
 You can observe each iteration of my visualization by checking out the links to each version above. From the a proof of concept visualization of this data, to the fourth iterations, you can see how my project has evolved. The map visualization started out as a basic map of massachusetts and sample dataa points, and has since evolved to a map of boston and every crash that has been reported in the past 8 years. It is also now color coded by the type of crash (motor vehicle, pedistrian, or bike). I have since, made the project scalable by importing the data from a separate file rather than hardcoding the boston map geo json data into my index file. I have also added an interactive element by including check boxes to see the different types of crashes. Users can select any combination of the 3, all, or none of the types and the map will automatically update with the crashes for that type. 
 
-The graph visualization started as a bar chart showing the number of crashes each month over the past 10 years, from 2015-2025. Since then I have changed the graph to a line graph to better represent the continuous nature of the data. As you can see, there are similar patterns each year, as seen by the humps going up and down each year. 
+The graph visualization started as a bar chart showing the number of crashes each month over the past 10 years, from 2015-2025. Since then I have changed the graph to a line graph to better represent the continuous nature of the data. As you can see, there are similar patterns each year, as seen by the humps going up and down each year. In version 3, I implemented color coding to represent the season of the crash, so that we can observe seasonal patterns within the crashes. 
 
 <img width="553" alt="Screenshot 2024-11-14 at 3 12 51 PM" src="https://github.com/user-attachments/assets/c41f2be9-39d1-4b08-b77c-bb65384ec8b4">
 <img width="556" alt="Screenshot 2024-11-14 at 3 11 59 PM" src="https://github.com/user-attachments/assets/d01ee256-756c-4289-aefd-12ecbca9e99f">
