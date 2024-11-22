@@ -65,7 +65,7 @@ In the final project file, I explain the data and embed each of the visualizatio
 ## Milestones
 
 11/06 - Improve Main prototype
-//11-10-2024 - Add Interactivity
+
 11/10 - Add interactivity 
 
 11/18 - Add interactivity to supplementary Vizs
