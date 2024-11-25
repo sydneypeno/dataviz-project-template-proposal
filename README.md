@@ -32,9 +32,9 @@ Graph Version 4: https://vizhub.com/sydneypeno/b5348e06fa15459eb5ec9fe27a3f1f08
 
 ## Data
 
-The data I used to visualize for my project is from a Boston Crash Dataset. This Dataset is pulled from data.boston.gov, provided as part of the Vision Zero Boston program, contains records of the date, time, location, and type of crash for incidents requiring public safety response which may involve injuries or fatalities. All records are compiled by the Department of Innovation and Technology from the City's Computer-Aided Dispatch (911) system and verified as having required a response from a public safety agency. To protect the privacy of individuals involved in these incidents, we do not indicate the severity of specific crashes or whether medical care was provided in any specific case.
+The data I used to visualize for my project is from a Boston Crash Dataset. This Dataset is pulled from data.boston.gov, provided as part of the Vision Zero Boston program, contains records of the date, time, location, and type of crash for incidents requiring public safety response which may involve injuries or fatalities. All records are compiled by the Department of Innovation and Technology from the City's Computer-Aided Dispatch (911) system and verified as having required a response from a public safety agency. To protect the privacy of individuals involved in these incidents, they do not indicate the severity of specific crashes or whether medical care was provided in any specific case.
 
-I wanted to understand the geographic distribution of crashes. I also wanted to understand how crashes have changed of time time of year, year-after-year; and to identify subsets of the data where crashes have a high value and crash rates for mode/vehicle type.
+For this project, I set out to understand the geographic distribution of crashes, the patterns of crashes by time of year, year-after-year. While I was learning new data viz techniques, I sought out to identify subsets of the data where crashes have a high value and crash rates for mode/vehicle type by parsing the data and adding interactivity.
 
 
 ## Questions & Tasks
@@ -64,13 +64,11 @@ In the final project file, I explain the data and embed each of the visualizatio
 
 ## Milestones
 
-11/06 - Improve Main prototype
+11/25 - Finishing touches anad improvements 
 
-11/10 - Add interactivity 
+11/27 - Record first draft of presentation 
 
-11/18 - Add interactivity to supplementary Vizs
-
-11/21 - Finishing touches anad Improvements 
+12/02 - Make PPT presentation slides for final video
 
 12/04 - Make video on final Viz
 
