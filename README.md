@@ -69,9 +69,13 @@ In iteration four of the line graph, I implemented color channels and interactiv
 
 Graph Version 4: https://vizhub.com/sydneypeno/b5348e06fa15459eb5ec9fe27a3f1f08
 
-By the fifth and final iteration, I changed the line to be one trend line, but kept the interactive element with the check boxes to filter by type.
+By the fifth iteration, I changed the line to be one trend line, but kept the interactive element with the check boxes to filter by type.
 
-**Graph Version 5: https://vizhub.com/sydneypeno/562b8a8817a942d8a8dfe75bc0d64e3b**
+Graph Version 5: https://vizhub.com/sydneypeno/562b8a8817a942d8a8dfe75bc0d64e3b
+
+And in the 6th and final iteration, I made minor changes to improve the look of the check boxes by adding the full type labels (Mv--> motor vehicle). 
+
+**Graph 6: https://vizhub.com/sydneypeno/dd6518d99fce4c3693cb45939f6c0609**
 
 ### The Final Product
 In the final project file, I explain the data and embed each of the visualizations to create a comprehensive crash analysis page that outlines my progress over the course of this project. 
