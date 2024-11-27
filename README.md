@@ -4,31 +4,6 @@
 
 ### Main Visualizations: https://vizhub.com/sydneypeno/0351d1d160014b2da905f98c3a7e8edd
 
-Map Version 1: https://vizhub.com/sydneypeno/a45d6b7a43ba4b44aafbb23353237f71
-
-Map Version 2: https://vizhub.com/sydneypeno/7ae09253c93341ae8cc9954694307b84
-
-Map Version 3: https://vizhub.com/sydneypeno/5931cf27ea29474bb6e7f6a7980dc1ed
-
-Map Version 4: https://vizhub.com/sydneypeno/9fbaa22584fc4b5193ab9c3651a8b1d7
-
-Map Version 5: https://vizhub.com/sydneypeno/81efeac5f6a84e9ab25932dbb4334916
-
-Map Version 6: https://vizhub.com/sydneypeno/28e15db445594a1eb679a83c2e6539e9
-
-Map Version 7: https://vizhub.com/sydneypeno/21cdfe1783344b249af855efc302e835
-
-**Map Version 8: https://vizhub.com/sydneypeno/90ca12ab39044cd2b0d09f000b2093ae**
-
-Graph Version 1: https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc
-
-Graph Version 2: https://vizhub.com/sydneypeno/63a64b63d6fc438aaafdcc307829fb33
-
-**Graph Version 3: https://vizhub.com/sydneypeno/6e535fdd7bd44f0fa56ae8295d4169af**
-
-Graph Version 4: https://vizhub.com/sydneypeno/b5348e06fa15459eb5ec9fe27a3f1f08
-
-**Graph Version 5: https://vizhub.com/sydneypeno/562b8a8817a942d8a8dfe75bc0d64e3b**
 
 ## Data
 
@@ -48,11 +23,58 @@ The following tasks and questions drove the visualization and interaction decisi
 
 ## Prototypes
 
-You can observe each iteration of my visualization by checking out the links to each version above. From the a proof of concept visualization of this data, to the 8th and 3rd iterations, you can see how my project has evolved. The map visualization started out as a basic map of massachusetts and sample dataa points, and has since evolved to a map of boston and every crash that has been reported in the past 8 years. It is also now color coded by the type of crash (motor vehicle, pedistrian, or bike). I have since, made the project scalable by importing the data from a separate file rather than hardcoding the boston map geo json data into my index file. I have also added an interactive element by including check boxes to see the different types of crashes. Users can select any combination of the 3, all, or none of the types and the map will automatically update with the crashes for that type. And in the final, 8th iteration, I improved the legend and check boxes by combining them, added a title and changed the scaling so the map fit in the embed size. 
+I completed several iterations of each visualization as my knowledge and experience grew throughout the course. From learning new techniques like including color channels and interactivity, to ensuring scalability by learning how toimport and parse the data from the raw data file rather than hard coding data points in my java file directly, my visualizations evolved.
 
-The graph visualization started as a bar chart showing the number of crashes each month over the past 10 years, from 2015-2025. Since then, I have changed the graph to a line graph to better represent the continuous nature of the data. As you can see, there are similar patterns each year, as seen by the humps going up and down each year. In version 3, I implemented color coding to represent the season of the crash, so that we can observe seasonal patterns within the crashes. In version 4, I implemented check boxes to filter the type of crash.
+### The Evolution of the Geographic Crash Map
+The first iteration of the map was merely an outline of massachusetts, as I was learning to use and understand geojson data. And iteration two was the map with test points on the map that would later represent the locations of crashes from the crash data. In iteration three, I successfully added in the real coordinate data points to plot crashes, parsing the data from the csv file.
 
-In the final project file, I explain the data and embed each of the visualizations to create a comprehensive crash analysis page. 
+Map Version 1: https://vizhub.com/sydneypeno/a45d6b7a43ba4b44aafbb23353237f71
+
+Map Version 2: https://vizhub.com/sydneypeno/7ae09253c93341ae8cc9954694307b84
+
+Map Version 3: https://vizhub.com/sydneypeno/5931cf27ea29474bb6e7f6a7980dc1ed
+
+
+In the fourth iteration, I decided to use Boston geojson data as the crash data contained only Boston specific crashes. I was able to successfully plot the crash data points on the Boston map but could not import and parse the geojson data. Instead I had hardcoded the geojson data into my javascript file, making the UI really slow and ultimately not feasible. In iteration five, I added color channels by color coding the data points by crash type, but still had hardcoded geojson data.
+
+Map Version 4: https://vizhub.com/sydneypeno/9fbaa22584fc4b5193ab9c3651a8b1d7
+
+Map Version 5: https://vizhub.com/sydneypeno/81efeac5f6a84e9ab25932dbb4334916
+
+In iteration six, I finally made the visualization scalable, by importing and parsing the geojson data in my javascript file, instead of having it hard coded. Viz hub now ran much quicker, and I cut down almost all of the lag time I was experiencing. In iteration 7, I added interactivity by including check boxes to filter what types of crashes the user wanted to see on the graph.
+
+Map Version 6: https://vizhub.com/sydneypeno/28e15db445594a1eb679a83c2e6539e9
+
+Map Version 7: https://vizhub.com/sydneypeno/21cdfe1783344b249af855efc302e835
+
+In my eigth and final iteration, I improved the look of my visualization, including centering the map, and combining the legend and check boxes for a better user experience and improved aesthetic.
+
+**Map Version 8: https://vizhub.com/sydneypeno/90ca12ab39044cd2b0d09f000b2093ae**
+
+### The Evolution of the Boston Crashes Line Graph 
+
+The first iteration of the line chart was actually a bar chart, originally showing the number of crashes each month over the past 10 years, from 2015-2025.
+
+Graph Version 1: https://vizhub.com/sydneypeno/383ddaf8ede643ada1a3e12effbc1afc
+
+I decided that a line chart would better represent the data as it contained time-series elements, which I was intending to illustrate. This was my second iteration.
+
+Graph Version 2: https://vizhub.com/sydneypeno/63a64b63d6fc438aaafdcc307829fb33
+
+The third iteration was one of my final visualizations, where I decided to add color channels in terms of seasons. I saw that the data contained some seasonality, with patterns in crash rates trending during the same time of year, each year.
+
+**Graph Version 3: https://vizhub.com/sydneypeno/6e535fdd7bd44f0fa56ae8295d4169af**
+
+In iteration four of the line graph, I implemented color channels and interactivity, by filtering the crashes by type of crash, with separate lines for each type,and check boxes to add or take away the lines for a given type of crash.
+
+Graph Version 4: https://vizhub.com/sydneypeno/b5348e06fa15459eb5ec9fe27a3f1f08
+
+By the fifth and final iteration, I changed the line to be one trend line, but kept the interactive element with the check boxes to filter by type.
+
+**Graph Version 5: https://vizhub.com/sydneypeno/562b8a8817a942d8a8dfe75bc0d64e3b**
+
+### The Final Product
+In the final project file, I explain the data and embed each of the visualizations to create a comprehensive crash analysis page that outlines my progress over the course of this project. 
 
 <img width="501" alt="Screenshot 2024-11-21 at 7 32 40 PM" src="https://github.com/user-attachments/assets/779765a0-332e-4c3a-9270-4779b2e74763">
 
@@ -61,12 +83,7 @@ In the final project file, I explain the data and embed each of the visualizatio
 <img width="812" alt="Screenshot 2024-11-21 at 7 39 32 PM" src="https://github.com/user-attachments/assets/d6905ce6-c7ff-418e-9538-3852a9349330">
 
 
-
 ## Milestones
-
-11/25 - Finishing touches anad improvements 
-
-11/27 - Record first draft of presentation 
 
 12/02 - Make PPT presentation slides for final video
 
