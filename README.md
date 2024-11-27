@@ -83,7 +83,7 @@ In the final project file, I explain the data and embed each of the visualizatio
 <img width="501" alt="Screenshot 2024-11-21 at 7 32 40 PM" src="https://github.com/user-attachments/assets/779765a0-332e-4c3a-9270-4779b2e74763">
 
 <img width="810" alt="Screenshot 2024-11-21 at 7 34 27 PM" src="https://github.com/user-attachments/assets/bf9d6919-9b30-4354-a8ff-bf2cdc0af2a3">
-<img width="812" alt="Screenshot 2024-11-21 at 7 34 38 PM" src="https://github.com/user-attachments/assets/9867311e-33ce-4a4d-beae-03ddbae7a08e">
+<img width="658" alt="Screenshot 2024-11-26 at 10 15 19 PM" src="https://github.com/user-attachments/assets/e7d8c202-a25f-44f2-a4a0-04e613226d78">
 <img width="812" alt="Screenshot 2024-11-21 at 7 39 32 PM" src="https://github.com/user-attachments/assets/d6905ce6-c7ff-418e-9538-3852a9349330">
 
 
